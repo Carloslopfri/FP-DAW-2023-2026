@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <style>
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: calc(100% - 10px); /* Restar 10px para compensar el padding */
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    textarea {
+      height: 150px;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    /* Estilo para indicar campos obligatorios */
+    label.required::after {
+      content: "*";
+      color: red;
+      margin-left: 5px;
+    }
+
+    /* Estilo para el campo de Código Postal */
+    label.zip::after {
+      content: "(Código Postal)";
+      color: #666;
+      margin-left: 5px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulario de Contacto</h1>
+  <form action="#" method="post">
+    <label for="nombre" class="required">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email" class="required">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" name="telefono">
+
+    <label for="codigo_postal" class="zip">Código Postal:</label>
+    <input type="text" id="codigo_postal" name="codigo_postal">
+
+    <label for="mensaje" class="required">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

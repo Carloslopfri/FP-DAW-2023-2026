@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olimpiadas>
+    <prueba_deportiva>
+        <deporte nombre="Salto con pértiga">
+            <especialidad>Salto Alto</especialidad>
+            <categoria>Masculino</categoria>
+            <resultados>
+                <medalla color="ORO">
+                    <deportista nombre="Carlos Pérez" pais="España" />
+                </medalla>
+                <medalla color="PLATA">
+                    <deportista nombre="John Smith" pais="Reino Unido" />
+                </medalla>
+                <medalla color="BRONCE">
+                    <deportista nombre="Hans Müller" pais="Alemania" />
+                </medalla>
+            </resultados>
+        </deporte>
+    </prueba_deportiva>
+</olimpiadas>

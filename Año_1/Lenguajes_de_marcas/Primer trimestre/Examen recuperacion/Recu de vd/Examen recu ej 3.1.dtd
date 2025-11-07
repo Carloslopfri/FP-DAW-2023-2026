@@ -1,0 +1,7 @@
+<!ELEMENT geografia_mundial (pais)>
+<!ELEMENT pais (nombre, continente, capital)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ATTLIST capital
+	valor (nombre) #REQUIRED>

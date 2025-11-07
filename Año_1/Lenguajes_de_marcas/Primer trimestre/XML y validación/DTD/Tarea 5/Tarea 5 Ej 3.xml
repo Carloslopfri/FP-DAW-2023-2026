@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PanelDeVuelos [
+    <!ELEMENT PanelDeVuelos (Aeropuerto, Fecha, Vuelo+)>
+    <!ELEMENT Aeropuerto (#PCDATA)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT Vuelo (Codigo, Diario, Origen, Destino, HoraSalida, HoraLlegada, Estado)>
+    <!ELEMENT Codigo (#PCDATA)>
+    <!ELEMENT Diario (#PCDATA)>
+    <!ELEMENT Origen (#PCDATA)>
+    <!ELEMENT Destino (#PCDATA)>
+    <!ELEMENT HoraSalida (#PCDATA)>
+    <!ELEMENT HoraLlegada (#PCDATA)>
+    <!ELEMENT Estado (#PCDATA)>
+    <!ATTLIST Codigo
+        uniqueID ID #REQUIRED>
+    <!ATTLIST Diario
+        valor (SI|NO) #REQUIRED>
+    <!ATTLIST Estado
+        valor (C|E|R) "E">
+]>
+
+<PanelDeVuelos>
+    <Aeropuerto>JFK</Aeropuerto>
+    <Fecha>20/12/2013</Fecha>
+    <Vuelo>
+        <Codigo uniqueID="V22">V22</Codigo>
+        <Diario valor="SI">SI</Diario>
+        <Origen>New York</Origen>
+        <Destino>Chicago</Destino>
+        <HoraSalida>9:30</HoraSalida>
+        <HoraLlegada>11:30</HoraLlegada>
+        <Estado>R</Estado>
+    </Vuelo>
+    <Vuelo>
+        <Codigo uniqueID="V23">V23</Codigo>
+        <Diario valor="NO">NO</Diario>
+        <Origen>New York</Origen>
+        <Destino>Miami</Destino>
+        <HoraSalida>10:15</HoraSalida>
+        <HoraLlegada>11:15</HoraLlegada>
+        <Estado>C</Estado>
+    </Vuelo>
+</PanelDeVuelos>

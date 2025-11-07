@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horario>
+    <dia nombre="Lunes">
+        <hora nombre="FH">16:20-17:10</hora>
+        <hora nombre="FH">17:10-18:00</hora>
+        <hora nombre="PAR">18:00-18:50</hora>
+        <hora nombre="PAR">18:50-19:40</hora>
+        <hora nombre="PAR">19:40-20:30</hora>
+        <hora nombre="FOL">20:30-21:20</hora>
+        <hora nombre="FOL">21:20-22:10</hora>
+    </dia>
+    <dia nombre="Martes">
+        <hora nombre="ISO">16:20-17:10</hora>
+        <hora nombre="ISO">17:10-18:00</hora>
+        <hora nombre="XBD">18:00-18:50</hora>
+        <hora nombre="XBD">18:50-19:40</hora>
+        <hora nombre="LMSXI">19:40-20:30</hora>
+        <hora nombre="LMSXI">20:30-21:20</hora>
+        <hora nombre="LMSXI">21:20-22:10</hora>
+    </dia>
+    <dia nombre="Miércoles">
+        <hora nombre="FH">16:20-17:10</hora>
+        <hora nombre="FH">17:10-18:00</hora>
+        <hora nombre="PAR">18:00-18:50</hora>
+        <hora nombre="PAR">18:50-19:40</hora>
+        <hora nombre="PAR">19:40-20:30</hora>
+        <hora nombre="ISO">20:30-21:20</hora>
+        <hora nombre="XBD">21:20-22:10</hora>
+        <hora nombre="XBD">22:20-23:10</hora>
+    </dia>
+    <dia nombre="Jueves">
+        <hora nombre="ISO">16:20-17:10</hora>
+        <hora nombre="ISO">17:10-18:00</hora>
+        <hora nombre="PAR">18:00-18:50</hora>
+        <hora nombre="PAR">18:50-19:40</hora>
+        <hora nombre="XBD">19:40-20:30</hora>
+        <hora nombre="XBD">20:30-21:20</hora>
+        <hora nombre="XBD">21:20-22:10</hora>
+    </dia>
+    <dia nombre="Viernes">
+        <hora nombre="ISO">16:20-17:10</hora>
+        <hora nombre="ISO">17:10-18:00</hora>
+        <hora nombre="ISO">18:00-18:50</hora>
+        <hora nombre="FOL">18:50-19:40</hora>
+        <hora nombre="FOL">19:40-20:30</hora>
+        <hora nombre="LMSXI">20:30-21:20</hora>
+        <hora nombre="LMSXI">21:20-22:10</hora>
+    </dia>
+    </horario>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ej 1.4</title>
+</head>
+<body>
+<h1>Formulario de envio de boletín</h1>
+<form action="registro.php" method="POST">
+<div>
+<label for="nombre">Ciudad:</label>
+<input type="text" id="nombre" name="nombre">
+</div>
+<div>
+<label for="apellidos">Código Postal</label>
+<input type="text" id="apellidos" name="apellidos">
+</div>
+<div>
+<label for="Pais">Pais</label>
+<select name="anio">
+<option value="1">...</option>
+<option value="2">Francia</option>
+<option value="3">Alemania</option>
+<option value="4">Austria</option>
+<option value="5">Italia</option>
+<option value="6">Reino Unido</option>
+<option value="6">Bélgica</option>
+<option value="7">Dinamarca</option>
+<option value="8">Grecia</option>
+<option value="9">España</option>
+<option value="10">Otro</option>
+</select>
+</div>
+<div>
+    <label for="ofertas">Deseo recibir ofertas</label>
+    <input type="radio" id="ofertas" name="dia" value="diariamente">
+    <label for="masculino">Diariamente</label>
+    <input type="radio" id="ofertas" name="dia" value="semanalmente">
+    <label for="femenino">Semanalmente</label>
+</div>
+<input type="submit" value="Crear cuenta">
+</form>
+</body>
+</html>

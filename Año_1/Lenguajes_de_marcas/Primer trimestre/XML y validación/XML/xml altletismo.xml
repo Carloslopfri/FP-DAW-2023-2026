@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olimpiadas>
+    <prueba_deportiva>
+        <deporte nombre="Atletismo">
+            <especialidad>100m</especialidad>
+            <categoria>Femenino</categoria>
+            <resultados>
+                <medalla color="ORO">
+                    <deportista nombre="Elaine Thompson" pais="JAMAICA" />
+                </medalla>
+                <medalla color="PLATA">
+                    <deportista nombre="Tori Bowie" pais="USA" />
+                </medalla>
+                <medalla color="BRONCE">
+                    <deportista nombre="S. Fraser-Pryce" pais="JAMAICA" />
+                </medalla>
+            </resultados>
+        </deporte>
+    </prueba_deportiva>
+</olimpiadas>

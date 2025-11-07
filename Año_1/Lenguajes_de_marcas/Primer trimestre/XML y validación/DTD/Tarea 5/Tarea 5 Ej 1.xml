@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos_de_baloncesto [
+    <!ELEMENT equipos_de_baloncesto (equipo+, equipo+)>
+    <!ELEMENT equipo (nombre, ciudad, entrenador, jugadores)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT entrenador (#PCDATA)>
+    <!ELEMENT jugadores (jugador+)>
+    <!ELEMENT jugador (nombre, posicion, nacionalidad)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ATTLIST posicion
+        tipo (Base|Escolta|Alero|Pivot) #REQUIRED>
+    <!ELEMENT nacionalidad (#PCDATA)>
+]>
+<equipos_de_baloncesto>
+    <equipo>
+        <nombre>Lakers</nombre>
+        <ciudad>Los Angeles</ciudad>
+        <entrenador>Frank Vogel</entrenador>
+        <jugadores>
+            <jugador>
+                <nombre>LeBron James</nombre>
+                <posicion tipo="Alero">Estadounidense</posicion>
+                <nacionalidad>Estados Unidos</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>Anthony Davis</nombre>
+                <posicion tipo="Pivot">Estadounidense</posicion>
+                <nacionalidad>Estados Unidos</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>Celtics</nombre>
+        <ciudad>Boston</ciudad>
+        <entrenador>Ime Udoka</entrenador>
+        <jugadores>
+            <jugador>
+                <nombre>Jayson Tatum</nombre>
+                <posicion tipo="Alero">Estadounidense</posicion>
+                <nacionalidad>Estados Unidos</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>Kemba Walker</nombre>
+                <posicion tipo="Base">Estadounidense</posicion>
+                <nacionalidad>Estados Unidos</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos_de_baloncesto>

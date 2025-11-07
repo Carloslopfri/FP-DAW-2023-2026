@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modulo>
+    <nombre>Lenguajes de Marcas y Sistemas de Gestión de la Información</nombre>
+    <horas_semanales>4</horas_semanales>
+    <caracter>obligatorio</caracter>
+    <periodo_lectivo>
+        <inicio>15 de septiembre de 2019</inicio>
+        <fin>30 de junio de 2020</fin>
+    </periodo_lectivo>
+    <alumnos>
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <nif>16965696L</nif>
+            <telefono>789654321</telefono>
+            <correo>ana.fdezgtrrez@hotmail.com</correo>
+            <direccion>
+                <calle>r/El Percebe, 13</calle>
+                <localidad>Santander</localidad>
+                <cp>39302</cp>
+            </direccion>
+            <asistencia>
+            No hay información
+            </asistencia>
+            <notas>
+            No hay información
+            </notas>
+        </alumno>
+        <alumno>
+            <nombre>Pepe Pérez</nombre>
+            <nif>98765432H</nif>
+            <telefono>656566555</telefono>
+            <correo>yhyh@yahoo.com</correo>
+            <direccion>
+                <calle>Avda. El Pez, 5</calle>
+                <localidad>Suances</localidad>
+                <cp>39401</cp>
+            </direccion>
+            <asistencia>No tiene faltas</asistencia>
+            <notas>
+                <nota>apto</nota>
+            </notas>
+        </alumno>
+    </alumnos>
+</modulo>

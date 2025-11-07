@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto>
+        <nombre>John</nombre>
+        <apellidos>Doe</apellidos>
+        <direccion>123 Main Street</direccion>
+        <telefonos>
+            <casa>555-1234</casa>
+            <movil>555-5678</movil>
+            <trabajo>555-9876</trabajo>
+        </telefonos>
+    </contacto>
+    <contacto>
+        <nombre>Alice</nombre>
+        <apellidos>Smith</apellidos>
+        <direccion>456 Elm Street</direccion>
+        <telefonos>
+            <casa>555-4321</casa>
+            <movil>555-8765</movil>
+            <trabajo>555-6789</trabajo>
+        </telefonos>
+    </contacto>
+    <contacto>
+        <nombre>Bob</nombre>
+        <apellidos>Johnson</apellidos>
+        <direccion>789 Oak Street</direccion>
+        <telefonos>
+            <casa>555-1111</casa>
+            <movil>555-2222</movil>
+            <trabajo>555-3333</trabajo>
+        </telefonos>
+    </contacto>
+</agenda>
