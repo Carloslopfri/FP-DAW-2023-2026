@@ -1,0 +1,14 @@
+Ejecutar un comando -> ej: sleep1010 & //Tienes que poner el & al final para ejecutarlo.
+
+Suspender/detener -> ej: Ctrl + Z 
+
+Listar los trabajos -> ej: jobs
+					carloslf@carloslf-VirtualBox:~$ jobs
+					[1]- Ejecitando sleep 1010 &
+					[2]+ Detenido sleep 4040
+
+Retomar la ejecución del proceso suspendido -> fg/Bg %1 //En este ejemplo pones el 1 pero tienes que poner el número al que corresponda tu proceso en el "jobs".
+
+Identificar el proceso padre -> `ps -ef | grep "sleep 1010"´ //Busca la linea que corresponda al proceso y el PPID estrá en la columna correspondiente.
+
+Matar un proceso -> ej: kill 3169 //Pones "kill" seguido del número PID.
