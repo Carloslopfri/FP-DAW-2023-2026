@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio-segunda-clase.xsl"?>
+<employees>
+  <employee>
+    <id>1</id>
+    <name>John Doe</name>
+    <department>Engineering</department>
+    <salary>50000</salary>
+    <years_of_experience>3</years_of_experience>
+  </employee>
+  <employee>
+    <id>2</id>
+    <name>Jane Smith</name>
+    <department>Human Resources</department>
+    <salary>45000</salary>
+    <years_of_experience>5</years_of_experience>
+  </employee>
+  <employee>
+    <id>3</id>
+    <name>Michael Johnson</name>
+    <department>Marketing</department>
+    <salary>60000</salary>
+    <years_of_experience>7</years_of_experience>
+  </employee>
+  <employee>
+    <id>4</id>
+    <name>Emily Brown</name>
+    <department>Engineering</department>
+    <salary>55000</salary>
+    <years_of_experience>4</years_of_experience>
+  </employee>
+  <employee>
+    <id>5</id>
+    <name>Robert Garcia</name>
+    <department>Marketing</department>
+    <salary>58000</salary>
+    <years_of_experience>6</years_of_experience>
+  </employee>
+  <employee>
+    <id>6</id>
+    <name>Lisa Davis</name>
+    <department>Finance</department>
+    <salary>62000</salary>
+    <years_of_experience>8</years_of_experience>
+  </employee>
+</employees>

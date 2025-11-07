@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clase2.xsl"?>
+<exam>
+  <title>Exam</title>
+    <question>
+      <number>1</number>
+      <text>What is the capital of France?</text>
+      <options>
+        <option>A) London</option>
+        <option>B) Paris</option>
+        <option>C) Berlin</option>
+        <option>D) Rome</option>
+      </options>
+      <correct_answer>B</correct_answer>
+    </question>
+    <question>
+      <number>2</number>
+      <text>What is the largest planet in our solar system?</text>
+      <options>
+        <option>A) Venus</option>
+        <option>B) Jupiter</option>
+        <option>C) Earth</option>
+        <option>D) Mars</option>
+      </options>
+      <correct_answer>B</correct_answer>
+    </question>
+    <question>
+      <number>3</number>
+      <text>What is 2 + 2?</text>
+      <options>
+        <option>A) 3</option>
+        <option>B) 4</option>
+        <option>C) 5</option>
+        <option>D) 6</option>
+      </options>
+      <correct_answer>B</correct_answer>
+    </question>
+    <question>
+      <number>4</number>
+      <text>Who wrote 'To Kill a Mockingbird'?</text>
+      <options>
+        <option>A) J.K. Rowling</option>
+        <option>B) Harper Lee</option>
+        <option>C) George Orwell</option>
+        <option>D) Ernest Hemingway</option>
+      </options>
+      <correct_answer>B</correct_answer>
+    </question>
+    <question>
+      <number>5</number>
+      <text>What is the chemical symbol for gold?</text>
+      <options>
+        <option>A) Ag</option>
+        <option>B) Au</option>
+        <option>C) Fe</option>
+        <option>D) Pb</option>
+      </options>
+      <correct_answer>B</correct_answer>
+    </question>
+    <question>
+      <number>6</number>
+      <text>Which country is known as the Land of the Rising Sun?</text>
+      <options>
+        <option>A) China</option>
+        <option>B) Japan</option>
+        <option>C) Australia</option>
+        <option>D) India</option>
+      </options>
+      <correct_answer>B</correct_answer>
+    </question>
+</exam>

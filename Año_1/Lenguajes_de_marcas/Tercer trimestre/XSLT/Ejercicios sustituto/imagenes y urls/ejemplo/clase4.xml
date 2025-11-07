@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clase4.xsl"?>
+<cosas>
+ <cosa>
+     <comida> croqueta </comida>
+     <sopa> fideos     </sopa>
+     <libro> el corazón delator </libro>
+ </cosa>
+</cosas>

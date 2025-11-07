@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="solucion.xsl"?>
+<library>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <genre>Novel</genre>
+        <price>12.99</price>
+        <available>true</available>
+        <reviews>
+            <review>
+                <user>reader1</user>
+                <comment>One of the greatest novels of the 20th century.</comment>
+            </review>
+            <review>
+                <user>reader2</user>
+                <comment>A timeless classic that everyone should read.</comment>
+            </review>
+        </reviews>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Novel</genre>
+        <price>10.99</price>
+        <available>false</available>
+        <reviews>
+            <review>
+                <user>reader3</user>
+                <comment>An essential read for understanding humanity.</comment>
+            </review>
+            <review>
+                <user>reader4</user>
+                <comment>A beautifully written book that tackles important issues.</comment>
+            </review>
+        </reviews>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian Fiction</genre>
+        <price>9.99</price>
+        <available>true</available>
+        <reviews>
+            <review>
+                <user>reader5</user>
+                <comment>A chilling portrayal of a totalitarian society.</comment>
+            </review>
+            <review>
+                <user>reader6</user>
+                <comment>Still relevant today, a must-read for everyone.</comment>
+            </review>
+        </reviews>
+    </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <genre>Coming-of-age Novel</genre>
+        <price>11.50</price>
+        <available>true</available>
+        <reviews>
+            <review>
+                <user>reader7</user>
+                <comment>An iconic novel capturing the essence of teenage rebellion.</comment>
+            </review>
+            <review>
+                <user>reader8</user>
+                <comment>Holden Caulfield's voice is unforgettable.</comment>
+            </review>
+        </reviews>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <price>14.25</price>
+        <available>true</available>
+        <reviews>
+            <review>
+                <user>reader9</user>
+                <comment>A delightful adventure suitable for readers of all ages.</comment>
+            </review>
+            <review>
+                <user>reader10</user>
+                <comment>Tolkien's world-building is unmatched.</comment>
+            </review>
+        </reviews>
+    </book>
+    <book>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <genre>Classic</genre>
+        <price>8.75</price>
+        <available>true</available>
+        <reviews>
+            <review>
+                <user>reader11</user>
+                <comment>A timeless romance that never fails to captivate.</comment>
+            </review>
+            <review>
+                <user>reader12</user>
+                <comment>Austen's wit shines through every page.</comment>
+            </review>
+        </reviews>
+    </book>
+    <book>
+        <title>The Lord of the Rings</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <price>19.99</price>
+        <available>true</available>
+        <reviews>
+            <review>
+                <user>reader13</user>
+                <comment>An epic masterpiece that defines the fantasy genre.</comment>
+            </review>
+            <review>
+                <user>reader14</user>
+                <comment>Tolkien's world is richly imagined and deeply immersive.</comment>
+            </review>
+        </reviews>
+    </book>
+</library>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Solucion.xsl"?>
+<inventario>
+    <item id="1">
+        <name>T-shirt</name>
+        <brand>Adidas</brand>
+        <category>Clothing</category>
+        <price>29.99</price>
+        <available>true</available>
+    </item>
+    <item id="2">
+        <name>Sneakers</name>
+        <brand>Nike</brand>
+        <category>Footwear</category>
+        <price>89.99</price>
+        <available>true</available>
+    </item>
+    <item id="3">
+        <name>Backpack</name>
+        <brand>North Face</brand>
+        <category>Accessories</category>
+        <price>49.99</price>
+        <available>false</available>
+    </item>
+    <item id="4">
+        <name>Jeans</name>
+        <brand>Levi's</brand>
+        <category>Clothing</category>
+        <price>59.99</price>
+        <available>false</available>
+    </item>
+    <item id="5">
+        <name>Hoodie</name>
+        <brand>Under Armour</brand>
+        <category>Clothing</category>
+        <price>39.99</price>
+        <available>true</available>
+    </item>
+    <item id="6">
+        <name>Running Shoes</name>
+        <brand>Asics</brand>
+        <category>Footwear</category>
+        <price>79.99</price>
+        <available>false</available>
+    </item>
+</inventario>

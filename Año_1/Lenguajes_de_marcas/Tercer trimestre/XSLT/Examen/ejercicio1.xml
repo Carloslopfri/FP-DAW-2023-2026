@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio1.xsl"?>
+
+<nba>
+    <temporada>2020-2021</temporada>
+    <plantilla eq="1">
+        <jugador num="2">
+            <nombre>Bey, Tyler</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">201</altura>
+            <peso ud="kg">98</peso>
+        </jugador>
+
+        <jugador num="13">
+            <nombre>Brunson, Jale</nombre>
+            <puesto>B</puesto>
+            <altura ud="cm">185</altura>
+            <peso ud="kg">86</peso>
+        </jugador>
+        
+        <jugador num="3">
+            <nombre>Cleveland, Antonius</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">196</altura>
+            <peso ud="kg">88</peso>
+        </jugador>
+
+        <jugador num="33">
+            <nombre>Cauley-Stein, Willie</nombre>
+            <puesto>P</puesto>
+            <altura ud="cm">213</altura>
+            <peso ud="kg">109</peso>
+        </jugador>
+
+        <jugador num="77">
+            <nombre>Dončić, Luka</nombre>
+            <puesto>B</puesto>
+            <altura ud="cm">201</altura>
+            <peso ud="kg">104</peso>
+        </jugador>
+
+
+        <jugador num="10">
+            <nombre>Finney-Smith, Dorian</nombre>
+            <puesto>A</puesto>
+            <altura ud="cm">201</altura>
+            <peso ud="kg">100</peso>
+        </jugador>
+
+        <jugador num="8">
+            <nombre>Green, Josh</nombre>
+            <puesto>A</puesto>
+            <altura ud="cm">198</altura>
+            <peso ud="kg">95</peso>
+        </jugador>
+
+        <jugador num="11">
+            <nombre>Hardaway Jr., Tim</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">196</altura>
+            <peso ud="kg">93</peso>
+        </jugador>
+
+        <jugador num="14">
+            <nombre>Hinton, Nate</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">196</altura>
+            <peso ud="kg">95</peso>
+        </jugador>
+
+        <jugador num="42">
+            <nombre>Kleber, Maxi</nombre>
+            <puesto>A</puesto>
+            <altura ud="cm">208</altura>
+            <peso ud="kg">109</peso>
+        </jugador>
+
+        <jugador num="51">
+            <nombre>Marjanović, Boban</nombre>
+            <puesto>P</puesto>
+            <altura ud="cm">224</altura>
+            <peso ud="kg">132</peso>
+        </jugador>
+
+        <jugador num="44">
+            <nombre>Melli, Nicolò</nombre>
+            <puesto>AP</puesto>
+            <altura ud="cm">206</altura>
+            <peso ud="kg">107</peso>
+        </jugador>
+
+        <jugador num="6">
+            <nombre>Porziņģis, Kristaps</nombre>
+            <puesto>AP</puesto>
+            <altura ud="cm">221</altura>
+            <peso ud="kg">109</peso>
+        </jugador>
+
+        <jugador num="7">
+            <nombre>Powell, Dwigh</nombre>
+            <puesto>AP</puesto>
+            <altura ud="cm">208</altura>
+            <peso ud="kg">109</peso>
+        </jugador>
+
+        <jugador num="4">
+            <nombre>Redick, JJ</nombre>
+            <puesto>AP</puesto>
+            <puesto>E</puesto>
+            <altura ud="cm">191</altura>
+            <peso ud="kg">91</peso>
+        </jugador>
+
+        <jugador num="0">
+            <nombre>Richardson, Josh</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">196</altura>
+            <peso ud="kg">91</peso>
+        </jugador>
+
+        <jugador num="1">
+            <nombre>Terry, Tyrell</nombre>
+            <puesto>B</puesto>
+            <altura ud="cm">191</altura>
+            <peso ud="kg">77</peso>
+        </jugador>
+
+    </plantilla>
+
+
+    <plantilla eq="2">
+        <jugador num="1">
+            <nombre>Brown, Bruce</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">193</altura>
+            <peso ud="kg">92</peso>
+        </jugador>
+
+        <jugador num="4">
+            <nombre>Chiozza, Chris</nombre>
+            <puesto>B</puesto>
+            <altura ud="cm">180</altura>
+            <peso ud="kg">79</peso>
+        </jugador>
+
+        <jugador num="33">
+            <nombre>Claxton, Nicolas</nombre>
+            <puesto>AP</puesto>
+            <altura ud="cm">211</altura>
+            <peso ud="kg">98</peso>
+        </jugador>
+
+        <jugador num="26">
+            <nombre>Dinwiddie, Spencer</nombre>
+            <puesto>B</puesto>
+            <altura ud="cm">196</altura>
+            <peso ud="kg">98</peso>
+        </jugador>
+
+        <jugador num="7">
+            <nombre>Durant, Kevin	</nombre>
+            <puesto>A</puesto>
+            <altura ud="cm">208</altura>
+            <peso ud="kg">109</peso>
+        </jugador>
+
+
+        <jugador num="8">
+            <nombre>Green, Jeff</nombre>
+            <puesto>A</puesto>
+            <altura ud="cm">203</altura>
+            <peso ud="kg">107</peso>
+        </jugador>
+
+        <jugador num="2">
+            <nombre>Griffin, Blake</nombre>
+            <puesto>A</puesto>
+            <altura ud="cm">206</altura>
+            <peso ud="kg">113</peso>
+        </jugador>
+
+        <jugador num="13">
+            <nombre>Harden, James</nombre>
+            <puesto>B</puesto>
+            <altura ud="cm">196</altura>
+            <peso ud="kg">98</peso>
+        </jugador>
+
+        <jugador num="12">
+            <nombre>Harris, Joe</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">198</altura>
+            <peso ud="kg">100</peso>
+        </jugador>
+
+        <jugador num="11">
+            <nombre>Irving, Kyrie</nombre>
+            <puesto>B</puesto>
+            <altura ud="cm">188</altura>
+            <peso ud="kg">88</peso>
+        </jugador>
+
+        <jugador num="10">
+            <nombre>Johnson, Tyler	</nombre>
+            <puesto>B</puesto>
+            <altura ud="cm">191</altura>
+            <peso ud="kg">84</peso>
+        </jugador>
+
+        <jugador num="6">
+            <nombre>Jordan, DeAndre</nombre>
+            <puesto>P</puesto>
+            <altura ud="cm">211</altura>
+            <peso ud="kg">120</peso>
+        </jugador>
+
+        <jugador num="9">
+            <nombre>PLuwawu-Cabarrot, Timothé</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">201</altura>
+            <peso ud="kg">100</peso>
+        </jugador>
+
+        <jugador num="0">
+            <nombre>Perry, Reggie</nombre>
+            <puesto>AP</puesto>
+            <altura ud="cm">206</altura>
+            <peso ud="kg">113</peso>
+        </jugador>
+
+        <jugador num="20">
+            <nombre>RShamet, Landry	</nombre>
+            <puesto>E</puesto>
+            <altura ud="cm">193</altura>
+            <peso ud="kg">86</peso>
+        </jugador>
+
+      
+    </plantilla>
+    <equipo id="1">
+        <nombre>Dallas Mavericks</nombre>
+        <ubicacion>Dallas, Texas, USA</ubicacion>
+        <propietario>Mark Cuban</propietario>
+        <entrenador>Rick Carlisle</entrenador>
+        <estadio>American Airlines Center</estadio>
+        <web>https://www.mavs.com/</web>
+        <logo>https://www.mavs.com/wp-content/themes/mavs/images/logo.svg</logo>
+    </equipo>
+
+    <equipo id="2">
+        <nombre>Brooklyn Nets</nombre>
+        <ubicacion>Brooklyn, New York, USA</ubicacion>
+        <propietario>Joseph Tsai</propietario>
+        <entrenador>Steve Nash</entrenador>
+        <estadio>Barclays Center</estadio>
+        <web>https://www.nba.com/nets/</web>
+        <logo>https://upload.wikimedia.org/wikipedia/commons/4/44/Brooklyn_Nets_newlogo.svg</logo>
+    </equipo>
+
+
+</nba>

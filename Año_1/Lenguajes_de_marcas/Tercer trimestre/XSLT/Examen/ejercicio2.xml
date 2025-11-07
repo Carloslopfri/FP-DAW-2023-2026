@@ -1,0 +1,153 @@
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio2.xsl" type="text/xsl"?>
+
+<clima>
+
+<prediccion loc="A coruña"  fecha="22/04/2021" cl="5">
+      <max>18</max> 
+      <min>12</min>
+      <lluvia ud="%">75</lluvia>
+ </prediccion>
+<prediccion loc="A coruña"  fecha="23/04/2021" cl="5">
+      <max>22</max> 
+      <min>13</min>
+      <lluvia ud="%">90</lluvia>
+ </prediccion>
+ <prediccion loc="A coruña"  fecha="24/04/2021"  cl="1">
+      <max>22</max> 
+      <min>13</min>
+      <lluvia ud="%">75</lluvia>
+ </prediccion>
+ <prediccion loc="A coruña"  fecha="25/04/2021"  cl="4">
+      <max>19</max> 
+      <min>13</min>
+      <lluvia ud="%">100</lluvia>
+ </prediccion>
+ <prediccion loc="A coruña"  fecha="26/04/2021" cl="5">
+      <max>18</max> 
+      <min>12</min>
+      <lluvia ud="%">85</lluvia>
+ </prediccion>
+  <prediccion loc="A coruña"  fecha="27/04/2021" cl="10">
+      <max>20</max> 
+      <min>12</min>
+      <lluvia ud="%">25</lluvia>
+ </prediccion>
+  <prediccion loc="A coruña"  fecha="28/04/2021" cl="10">
+      <max>20</max> 
+      <min>11</min>
+      <lluvia ud="%">40</lluvia>
+ </prediccion>
+
+
+<prediccion loc="Lugo"  fecha="22/04/2021" cl="5">
+      <max>19</max> 
+      <min>8</min>
+      <lluvia ud="%">65</lluvia>
+ </prediccion>
+<prediccion loc="Lugo"  fecha="23/04/2021" cl="5">
+      <max>23</max> 
+      <min>9</min>
+      <lluvia ud="%">80</lluvia>
+ </prediccion>
+ <prediccion loc="Lugo"  fecha="24/04/2021"  cl="1">
+      <max>22</max> 
+      <min>12</min>
+      <lluvia ud="%">75</lluvia>
+ </prediccion>
+ <prediccion loc="Lugo"  fecha="25/04/2021"  cl="1">
+      <max>22</max> 
+      <min>10</min>
+      <lluvia ud="%">85</lluvia>
+ </prediccion>
+ <prediccion loc="Lugo"  fecha="26/04/2021" cl="4">
+      <max>21</max> 
+      <min>9</min>
+      <lluvia ud="%">100</lluvia>
+ </prediccion>
+  <prediccion loc="Lugo"  fecha="27/04/2021" cl="9">
+      <max>19</max> 
+      <min>10</min>
+      <lluvia ud="%">50</lluvia>
+ </prediccion>
+  <prediccion loc="Lugo"  fecha="28/04/2021" cl="10">
+      <max>21</max> 
+      <min>9</min>
+      <lluvia ud="%">45</lluvia>
+ </prediccion>
+ 
+
+ <prediccion loc="Orense"  fecha="22/04/2021" cl="5">
+      <max>21</max> 
+      <min>12</min>
+      <lluvia ud="%">65</lluvia>
+ </prediccion>
+<prediccion loc="Orense"  fecha="23/04/2021" cl="1">
+      <max>25</max> 
+      <min>11</min>
+      <lluvia ud="%">100</lluvia>
+ </prediccion>
+ <prediccion loc="Orense"  fecha="24/04/2021"  cl="1">
+      <max>24</max> 
+      <min>13</min>
+      <lluvia ud="%">85</lluvia>
+ </prediccion>
+ <prediccion loc="Orense"  fecha="25/04/2021"  cl="1">
+      <max>23</max> 
+      <min>11</min>
+      <lluvia ud="%">90</lluvia>
+ </prediccion>
+ <prediccion loc="Orense"  fecha="26/04/2021" cl="1">
+      <max>23</max> 
+      <min>9</min>
+      <lluvia ud="%">100</lluvia>
+ </prediccion>
+  <prediccion loc="Orense"  fecha="27/04/2021" cl="6">
+      <max>24</max> 
+      <min>11</min>
+      <lluvia ud="%">70</lluvia>
+ </prediccion>
+  <prediccion loc="Orense"  fecha="28/04/2021" cl="6">
+      <max>24</max> 
+      <min>10</min>
+      <lluvia ud="%">55</lluvia>
+ </prediccion>
+
+
+ <prediccion loc="Pontevedra"  fecha="22/04/2021" cl="4">
+      <max>24</max> 
+      <min>11</min>
+      <lluvia ud="%">80</lluvia>
+ </prediccion>
+<prediccion loc="Pontevedra"  fecha="23/04/2021" cl="1">
+      <max>24</max> 
+      <min>11</min>
+      <lluvia ud="%">100</lluvia>
+ </prediccion>
+ <prediccion loc="Pontevedra"  fecha="24/04/2021"  cl="1">
+      <max>21</max> 
+      <min>13</min>
+      <lluvia ud="%">95</lluvia>
+ </prediccion>
+ <prediccion loc="Pontevedra"  fecha="25/04/2021"  cl="1">
+      <max>21</max> 
+      <min>11</min>
+      <lluvia ud="%">90</lluvia>
+ </prediccion>
+ <prediccion loc="Pontevedra"  fecha="26/04/2021" cl="6">
+      <max>22</max> 
+      <min>11</min>
+      <lluvia ud="%">80</lluvia>
+ </prediccion>
+  <prediccion loc="Pontevedra"  fecha="27/04/2021" cl="6">
+      <max>21</max> 
+      <min>10</min>
+      <lluvia ud="%">65</lluvia>
+ </prediccion>
+  <prediccion loc="Pontevedra"  fecha="28/04/2021" cl="10">
+      <max>20</max> 
+      <min>8</min>
+      <lluvia ud="%">45</lluvia>
+ </prediccion>
+
+</clima>

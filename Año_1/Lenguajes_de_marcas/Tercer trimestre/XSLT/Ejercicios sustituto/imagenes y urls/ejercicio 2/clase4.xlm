@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clase4.xsl"?>
+<productos>
+    <producto>
+        <nombre>Portátil Acer Aspire 5</nombre>
+        <descripcion>Portátil de 15.6 pulgadas con procesador Intel Core i5 y 8 GB de RAM</descripcion>
+        <precio>699.99</precio>
+        <disponible>true</disponible>
+        <caracteristicas>
+            <procesador>Intel Core i5</procesador>
+            <memoria_ram>8 GB DDR4</memoria_ram>
+            <disco_duro>512 GB SSD</disco_duro>
+            <pantalla>15.6 pulgadas Full HD</pantalla>
+            <sistema_operativo>Windows 10 Home</sistema_operativo>
+        </caracteristicas>
+        <comentarios>
+            <comentario>
+                <usuario>usuario1</usuario>
+                <texto>Muy buen producto, funciona excelente.</texto>
+            </comentario>
+            <comentario>
+                <usuario>usuario2</usuario>
+                <texto>No estoy satisfecho con el rendimiento, se traba a menudo.</texto>
+            </comentario>
+        </comentarios>
+    </producto>
+    <producto>
+        <nombre>Smartphone Samsung Galaxy S20</nombre>
+        <descripcion>Smartphone con pantalla Dynamic AMOLED de 6.2 pulgadas, cámara de 64 MP y 128 GB de almacenamiento</descripcion>
+        <precio>899.99</precio>
+        <disponible>false</disponible>
+        <caracteristicas>
+            <pantalla>Dynamic AMOLED de 6.2 pulgadas</pantalla>
+            <camara>64 MP</camara>
+            <memoria_interna>128 GB</memoria_interna>
+            <bateria>4000 mAh</bateria>
+            <sistema_operativo>Android 10</sistema_operativo>
+        </caracteristicas>
+        <comentarios>
+            <comentario>
+                <usuario>usuario3</usuario>
+                <texto>El diseño es genial, pero la batería se agota rápidamente.</texto>
+            </comentario>
+            <comentario>
+                <usuario>usuario4</usuario>
+                <texto>Excelente cámara, toma fotos de alta calidad.</texto>
+            </comentario>
+        </comentarios>
+    </producto>
+    <producto>
+        <nombre>Portátil Dell XPS 15</nombre>
+        <descripcion>Portátil de 15.6 pulgadas con procesador Intel Core i7 y 16 GB de RAM</descripcion>
+        <precio>1299.99</precio>
+        <disponible>true</disponible>
+        <caracteristicas>
+            <procesador>Intel Core i7</procesador>
+            <memoria_ram>16 GB DDR4</memoria_ram>
+            <disco_duro>1 TB SSD</disco_duro>
+            <pantalla>15.6 pulgadas 4K UHD</pantalla>
+            <sistema_operativo>Windows 11 Pro</sistema_operativo>
+        </caracteristicas>
+        <comentarios>
+            <comentario>
+                <usuario>usuario5</usuario>
+                <texto>Increíble rendimiento y calidad de pantalla. ¡Una gran compra!</texto>
+            </comentario>
+            <comentario>
+                <usuario>usuario6</usuario>
+                <texto>El diseño es elegante y el teclado es muy cómodo de usar.</texto>
+            </comentario>
+        </comentarios>
+    </producto>
+    <producto>
+        <nombre>Tablet Apple iPad Air</nombre>
+        <descripcion>Tablet con pantalla Retina de 10.9 pulgadas, chip A14 Bionic y 256 GB de almacenamiento</descripcion>
+        <precio>599.99</precio>
+        <disponible>true</disponible>
+        <caracteristicas>
+            <pantalla>Retina de 10.9 pulgadas</pantalla>
+            <chip>A14 Bionic</chip>
+            <memoria_interna>256 GB</memoria_interna>
+            <sistema_operativo>iPadOS 15</sistema_operativo>
+        </caracteristicas>
+        <comentarios>
+            <comentario>
+                <usuario>usuario7</usuario>
+                <texto>La pantalla es nítida y los colores son vibrantes. Perfecta para el entretenimiento.</texto>
+            </comentario>
+            <comentario>
+                <usuario>usuario8</usuario>
+                <texto>La duración de la batería es sorprendente, ¡puedo usarla todo el día sin problemas!</texto>
+            </comentario>
+        </comentarios>
+    </producto>
+</productos>

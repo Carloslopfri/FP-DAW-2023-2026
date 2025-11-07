@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="resuelto.xsl"?>
+
+<datos>
+    <elemento>
+        <nombre>Google</nombre>
+        <url>https://www.google.com</url>
+        <descripcion>Motor de búsqueda y servicios en línea</descripcion>
+    </elemento>
+    <elemento>
+        <nombre>Amazon</nombre>
+        <url>https://www.amazon.com</url>
+        <descripcion>Tienda en línea y servicios de computación en la nube</descripcion>
+    </elemento>
+    <elemento>
+        <nombre>OpenAI</nombre>
+        <url>https://www.openai.com</url>
+        <descripcion>Investigación y desarrollo de inteligencia artificial</descripcion>
+    </elemento>
+    <elemento>
+        <nombre>Microsoft</nombre>
+        <url>https://www.microsoft.com</url>
+        <descripcion>Empresa de tecnología líder en software</descripcion>
+    </elemento>
+    <elemento>
+        <nombre>Wikipedia</nombre>
+        <url>https://www.wikipedia.org</url>
+        <descripcion>Enciclopedia en línea</descripcion>
+    </elemento>
+</datos>
