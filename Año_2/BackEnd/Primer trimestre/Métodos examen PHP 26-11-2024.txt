@@ -1,0 +1,39 @@
+Métodos examen PHP: 26/11/2024
+
+number_format(número, número de decimales, separación de los decimales(,), separación de cada grupo de 3 números(.));
+
+printf('%b'(binario), número);   printf('%x'(hexadecimal), número);
+
+round(); Para redondear un decimal.
+
+strpos(cadna, lo que quieras encontrar); saca la localización de lo que queramos buscar de un string.
+
+str_replace(letra que va a remplazar, letra sustituta, texto donde buscar); sirve para reemplazar cosas en un string.
+
+time(); devuleve la fecha actual.
+
+date() da formato a una fecha.
+
+strtolower(texto); convierte un string a minúscula
+
+in_array(); busca algo en un array.
+
+filter_var(variable, filtro); valida una variable, busca filter validate para ver los tipos.
+
+preg_match('/^requisitos$/'); valida una variable con expresiones regulares.
+
+array_key_exist(clave a buscar, array); busca claves en un array.
+
+password_hash(contraseña, PASSWORD_DEFAULT); hashea la contraseña.
+
+password_verify(contraseña, hash); verifica con el hash.
+
+substr(cadena, posicion); devuleve parte de la cadena.
+
+str_ends_with(cadena, termina con); verifica si una cadena termina de x manera.
+
+move_uploaded_file(rutaTemporal,rutaueva); Mueve archivos de lugar.
+
+fopen(ruta , modo de acción "a"); Abre un archivo.
+
+fwrite(fopen , mensaje); En este caso estamos escribiendo un mensaje.

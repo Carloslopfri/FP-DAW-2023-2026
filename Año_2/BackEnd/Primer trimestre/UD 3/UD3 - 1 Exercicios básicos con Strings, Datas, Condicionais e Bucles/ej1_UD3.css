@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse; /* Elegimos el tipo de borde. */
+}
+th, td {
+    border: 1px solid #000;
+    text-align: left; /* Alineamos el contenido de los th y td a la izquierda. */
+}
+th {
+    background-color: #d3d3d3; /* Color de fondo de los th. */
+}
+.col1 {
+    background-color: #ffcccb; /* Color para la primeira columna */
+}
+.col2 {
+    background-color: #add8e6; /* Color para la segunda columna */
+}
+.negrita {
+    font-weight: bold; /* Destacar en negrita */
+}

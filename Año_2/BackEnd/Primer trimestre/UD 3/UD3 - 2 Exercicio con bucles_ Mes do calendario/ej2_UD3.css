@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.finde {
+    background-color: blue;
+    color: white;
+}
+
+.entreSemana {
+    background-color: aquamarine;
+}
+
+td, th {
+    padding: 40px;
+}
