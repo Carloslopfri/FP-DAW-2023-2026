@@ -1,0 +1,36 @@
+Algoritmo Lopez_Frieiro_Carlos_Calculadora
+    Definir num1, num2, resultado Como Real // Definimos las variables num1, num2 y resultado
+    Definir operacion Como Caracter // Definimos la variable operacion
+	
+    Escribir "Calculadora Simple" // Mensaje de bienvenida
+    Escribir "------------------"
+	
+    Escribir "Paso 1: Ingrese el primer valor:" // Solicitar al usuario el primer número
+    Leer num1 // Leer el primer número ingresado por el usuario
+	
+    Escribir "Paso 2: Ingrese el segundo valor:" // Solicitar al usuario el segundo número
+    Leer num2 // Leer el segundo número ingresado por el usuario
+	
+    Escribir "Valores ingresados:" // Mostrar los valores ingresados por el usuario
+    Escribir "Número 1: ", num1
+    Escribir "Número 2: ", num2
+	
+    Escribir "Paso 3: Ingrese la operación (suma o resta):" // Solicitar al usuario la operación
+    Leer operacion // Leer la operación ingresada por el usuario
+	
+    Si operacion = "suma" Entonces // Si la operación es suma
+        Escribir "Operación seleccionada: Suma"
+        resultado <- num1 + num2 // Realizar la operación de suma
+    Sino
+        Si operacion = "resta" Entonces // Si la operación es resta
+            Escribir "Operación seleccionada: Resta"
+            resultado <- num1 - num2 // Realizar la operación de resta
+        Sino
+            Escribir "Operación no válida" // Mostrar un mensaje si la operación no es válida
+        FinSi
+    FinSi
+	
+    Si operacion = "suma" o operacion = "resta" Entonces // Si la operación es suma o resta
+        Escribir "Resultado: ", resultado // Mostrar el resultado
+    FinSi
+FinAlgoritmo

@@ -1,0 +1,61 @@
+Algoritmo CalculadoraConBucles
+    Definir valor1, valor2, resultado, iteracion, resto Como Entero
+    Definir mensaje Como Cadena
+	Definir operacion Como Caracter
+	
+    Escribir "Calculadora con bucles"
+    Escribir "-----------------------"
+    Escribir "Introduce el primer valor: "
+    Leer valor1
+    Escribir "Introduce el segundo valor: "
+    Leer valor2
+	
+    Escribir "Ingrese la operacion a realizar (suma, resta, multiplicación o división): "
+	Leer operacion
+	
+    // Realizar la operación solicitada
+    Segun operacion Hacer
+       "suma":
+		   resultado = valor1 + valor2
+		   imprimir "La suma es: "  resultado
+			
+        "resta":
+            resultado = valor1
+            iteracion = valor2
+            Mientras iteracion > 0 Hacer
+                resultado = resultado - 1
+                iteracion = iteracion - 1
+            Fin Mientras
+            imprimir "La resta es: "  resultado
+			
+        "multiplicación":
+            resultado = 0
+            Para iteracion = 1 Hasta valor2 Con Paso 1 Hacer
+                resultado = resultado + valor1
+            Fin Para
+            imprimir "La multiplicación es: "  resultado
+			
+        "división":
+            Si valor2 = 0 Entonces
+                mensaje = "No es posible dividir por cero."
+				Fin Si
+			Si valor2 <>0
+                cociente = 0
+                resto = valor1
+                Mientras resto >= valor2 Hacer
+                    resto = resto - valor2
+                    cociente = cociente + 1
+                Fin Mientras
+                imprimir  "La división es: " cociente
+                Si resto > 0 Entonces
+                    imprimir mensaje , " con un resto de " , resto
+                Fin Si
+            Fin Si
+			
+        De Otro Modo:
+            mensaje = "Operación no válida"
+    Fin Segun
+	
+    
+	
+FinAlgoritmo
