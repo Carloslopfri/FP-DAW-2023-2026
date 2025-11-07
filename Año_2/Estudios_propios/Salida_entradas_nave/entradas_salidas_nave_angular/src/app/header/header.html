@@ -1,0 +1,16 @@
+<header>
+  <h2><a routerLink="/inicio" routerLinkActive="active">Salidas nave HREF</a></h2>
+  <div class="caja-btn">
+    <a class="admin-btn" routerLink="/admin" routerLinkActive="active">Administración</a>
+    <a class="admin-btn">Cerrar sesión</a>
+  </div>
+</header>
+
+<!-- Submenú estático -->
+<nav class="sub-menu">
+  <ul>
+    <ng-container *ngFor="let salida of salidas">
+      <li><a routerLink="/salida/{{ salida.id }}" routerLinkActive="active">{{ salida.nombre }}</a></li>
+    </ng-container>
+  </ul>
+</nav>

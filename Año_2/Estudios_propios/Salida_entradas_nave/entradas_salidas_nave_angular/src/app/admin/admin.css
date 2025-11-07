@@ -1,0 +1,12 @@
+.main-contenedor {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    padding: 20px;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenido-tabla {
+    flex: 1;
+}

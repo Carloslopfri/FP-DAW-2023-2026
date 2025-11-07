@@ -1,0 +1,43 @@
+<section class="productos">
+    <h2>Lista de Salidas</h2>
+
+    <div class="tabla-contenedor">
+        <table class="tabla-productos">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Ubicación</th>
+                    <th>Visibilidad</th>
+                    <th>Descripción</th>
+                    <th>Imagen 1</th>
+                    <th>Imagen 2</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let salida of salidas">
+                    <td>{{ salida.id }}</td>
+                    <td>{{ salida.nombre }}</td>
+                    <td>{{ salida.ubicacion }}</td>
+                    <td>{{ salida.visibilidad }}</td>
+                    <td>{{ salida.descripcion }}</td>
+                    <td><img src="../media/{{ salida.imagen1 }}" alt="{{ salida.nombre }}"></td>
+                    <td><img src="../media/{{ salida.imagen2 }}" alt="{{ salida.nombre }}"></td>
+                    <td class="acciones">
+                        <a routerLink="/modificarSalida/{{ salida.id }}">
+                            <button class="btn-editar">Editar</button>
+                        </a>
+                        <button class="btn-eliminar" (click)="eliminarSalida(salida.id)">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="btn-agregar-contenedor">
+        <a routerLink="/anadirSalida">
+            <button class="btn-añadir">Añadir Salida</button>
+        </a>
+    </div>
+</section>

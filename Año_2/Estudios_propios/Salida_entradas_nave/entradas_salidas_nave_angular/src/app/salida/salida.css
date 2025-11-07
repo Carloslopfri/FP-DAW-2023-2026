@@ -1,0 +1,65 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Título ocupa toda la fila 1 */
+.titulo {
+    grid-column: 1 / -1; /* de la columna 1 hasta la última */
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 2.5rem;
+    color: #1e3a8a;
+}
+
+/* Descripción a la izquierda */
+.descripcion {
+    grid-column: 1 / 2;
+    background-color: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.descripcion h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.caracteristica h3 {
+    margin-bottom: 5px;
+    color: #2563eb;
+}
+
+/* Primera foto a la derecha */
+.foto1 {
+    grid-column: 2 / 3;
+}
+
+.foto1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+/* Segunda foto debajo de la primera fila */
+.foto2 {
+    grid-column: 1 / -1; /* ocupa todo el ancho */
+}
+
+.foto2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}

@@ -1,0 +1,33 @@
+.menu-lateral {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-lateral ul li a {
+    text-decoration: none;
+    color: #1e3a8a;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.menu-lateral ul li a:hover,
+.menu-lateral ul li a.active {
+    background-color: #2563eb;
+    color: #fff;
+}

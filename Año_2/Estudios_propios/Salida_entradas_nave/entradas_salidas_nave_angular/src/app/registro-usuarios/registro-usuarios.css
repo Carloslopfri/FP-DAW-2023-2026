@@ -1,0 +1,120 @@
+/* Contenedor principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sección del formulario */
+.formulario {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Título */
+.formulario h2 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+/* Campos */
+.form-datos {
+    margin-bottom: 20px;
+}
+
+.form-datos label {
+    display: block;
+    font-weight: 600;
+    color: #1e3a8a;
+    margin-bottom: 8px;
+}
+
+.form-datos input[type="text"],
+.form-datos input[type="email"],
+.form-datos input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-datos input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Mensajes de error */
+.form-datos p {
+    color: #dc2626;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Botón */
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1e40af;
+}
+
+/* Enlace de inicio de sesión */
+.registro-texto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+.registro-texto a {
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.registro-texto a:hover {
+    color: #1e40af;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .formulario {
+        padding: 25px;
+    }
+
+    .formulario h2 {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

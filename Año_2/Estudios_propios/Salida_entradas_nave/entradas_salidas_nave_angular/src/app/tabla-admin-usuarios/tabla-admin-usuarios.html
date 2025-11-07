@@ -1,0 +1,39 @@
+<section class="productos">
+    <h2>Lista de Usuarios</h2>
+
+    <div class="tabla-contenedor">
+        <table class="tabla-usuarios">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Contraseña</th>
+                    <th>Rol</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let usuario of usuarios">
+                    <td>{{ usuario.id }}</td>
+                    <td>{{ usuario.nombre }}</td>
+                    <td>{{ usuario.email }}</td>
+                    <td>{{ usuario.password }}</td>
+                    <td>{{ usuario.rol }}</td>
+                    <td class="acciones">
+                        <a routerLink="/modificarUsuario/{{ usuario.id }}" routerLinkActive="active">
+                            <button class="btn-editar">Editar</button>
+                        </a>
+                        <button class="btn-eliminar" (click)="eliminarUsuario(usuario.id)">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="btn-agregar-contenedor">
+        <a routerLink="/registroUsuarios" routerLinkActive="active">
+            <button class="btn-añadir">Añadir Usuario</button>
+        </a>
+    </div>
+</section>

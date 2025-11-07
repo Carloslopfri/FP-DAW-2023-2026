@@ -1,0 +1,102 @@
+<app-header></app-header>
+
+<main>
+    <section class="formulario">
+        <h2>Añade una salida</h2>
+
+        <form class="form-agregar-producto" [formGroup]="formulario" (ngSubmit)="rexistrar($event)">
+
+            <!-- Nombre -->
+            <div class="form-datos">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" formControlName="nombre"><br>
+
+                <div *ngIf="formulario.get('nombre')?.errors && formulario.get('nombre')?.touched">
+                    <p style="color: red;" *ngIf="formulario.get('nombre')?.hasError('required')">
+                        *Este es un campo requerido.
+                    </p>
+                    <p style="color: red;" *ngIf="formulario.get('nombre')?.hasError('minlength')">
+                        *Este campo necesita una longitud mínima de 3 caracteres.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ubicación -->
+            <div class="form-datos">
+                <label for="ubicacion">Ubicación</label>
+                <input type="text" id="ubicacion" name="ubicacion" formControlName="ubicacion"><br>
+
+                <div *ngIf="formulario.get('ubicacion')?.errors && formulario.get('ubicacion')?.touched">
+                    <p style="color: red;" *ngIf="formulario.get('ubicacion')?.hasError('required')">
+                        *Este es un campo requerido.
+                    </p>
+                    <p style="color: red;" *ngIf="formulario.get('ubicacion')?.hasError('minlength')">
+                        *Este campo necesita una longitud mínima de 3 caracteres.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Visibilidad -->
+            <div class="form-datos">
+                <label for="visibilidad">Visibilidad</label>
+                <input type="text" id="visibilidad" name="visibilidad" formControlName="visibilidad"><br>
+
+                <div *ngIf="formulario.get('visibilidad')?.errors && formulario.get('visibilidad')?.touched">
+                    <p style="color: red;" *ngIf="formulario.get('visibilidad')?.hasError('required')">
+                        *Este es un campo requerido.
+                    </p>
+                    <p style="color: red;" *ngIf="formulario.get('visibilidad')?.hasError('minlength')">
+                        *Este campo necesita una longitud mínima de 3 caracteres.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Descripción -->
+            <div class="form-datos">
+                <label for="descripcion">Descripción</label>
+                <textarea id="descripcion" name="descripcion" formControlName="descripcion"
+                    style="width: 100%;"></textarea>
+
+                <div *ngIf="formulario.get('descripcion')?.errors && formulario.get('descripcion')?.touched">
+                    <p style="color: red;" *ngIf="formulario.get('descripcion')?.hasError('required')">
+                        *Este es un campo requerido.
+                    </p>
+                    <p style="color: red;" *ngIf="formulario.get('descripcion')?.hasError('minlength')">
+                        *Este campo necesita una longitud mínima de 3 caracteres.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Imagen1 -->
+            <div class="form-datos">
+                <label for="imagen1">Imagen 1</label>
+                <input type="file" id="imagen1" (change)="onFileChange($event, 'imagen1')">
+
+                <div *ngIf="formulario.get('imagen1')?.errors && formulario.get('imagen1')?.touched">
+                    <p style="color: red;" *ngIf="formulario.get('imagen1')?.hasError('required')">
+                        *Este es un campo requerido.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Imagen2 -->
+            <div class="form-datos">
+                <label for="imagen2">Imagen 2</label>
+                <input type="file" id="imagen2" (change)="onFileChange($event, 'imagen2')">
+
+                <div *ngIf="formulario.get('imagen2')?.errors && formulario.get('imagen2')?.touched">
+                    <p style="color: red;" *ngIf="formulario.get('imagen2')?.hasError('required')">
+                        *Este es un campo requerido.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Botones -->
+            <div class="botones">
+                <button type="submit" class="btn">Añadir</button>
+                <a routerLink="/admin/salidas" routerLinkActive="active" class="btn-cancelar">Cancelar</a>
+            </div>
+        </form>
+    </section>
+</main>

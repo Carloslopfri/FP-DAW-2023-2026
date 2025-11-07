@@ -1,0 +1,39 @@
+<app-header></app-header>
+
+<div class="grid-container">
+
+    <!-- Título principal -->
+    <div class="titulo">
+        <h1>{{ salida.nombre }}</h1>
+    </div>
+
+    <!-- Descripción y características -->
+    <div class="descripcion">
+        <h2>Características</h2>
+
+        <div class="caracteristica">
+            <h3>Ubicación</h3>
+            <p>{{ salida.ubicacion }}</p>
+        </div>
+
+        <div class="caracteristica">
+            <h3>Visibilidad</h3>
+            <p>{{ salida.visibilidad }}</p>
+        </div>
+
+        <div class="caracteristica">
+            <h3>Descripción</h3>
+            <p>{{ salida.descripcion }}</p>
+        </div>
+    </div>
+
+    <!-- Fotos -->
+    <div class="foto1">
+        <img src="../media/{{ salida.imagen1 }}" alt="foto1">
+    </div>
+
+    <div class="foto2">
+        <img src="../media/{{ salida.imagen2 }}" alt="foto2">
+    </div>
+
+</div>

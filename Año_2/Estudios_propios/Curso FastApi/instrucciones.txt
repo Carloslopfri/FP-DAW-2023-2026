@@ -1,0 +1,16 @@
+Hay que tener instalado python.
+
+Crear entorno virtualizado:
+python -m venv venv
+
+Activamos el entorno virtualizado (windows):
+venv/Scripts/activate
+
+Desactivamos el entorno cirtualizado (windows).
+deactivate
+
+Instalamos fastapi, uvicorn con el entorno virtualizado activado.
+pip install fastapi uvicorn
+
+Lanzamos la api:
+uvicorn main:app --port 5000 --reload
