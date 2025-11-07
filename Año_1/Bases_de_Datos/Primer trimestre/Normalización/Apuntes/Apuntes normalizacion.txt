@@ -1,0 +1,5 @@
+1FN --> No puede hay atributos multivaluados.
+
+2FN --> Todos los atributos dependen de la clave principal.
+
+3FN --> No puede haber atributos que puedan servir como clave principal de otros atributos.
